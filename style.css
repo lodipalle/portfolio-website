@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+section {
+  padding: 100px;
+}
+
 .banner {
   position: relative;
   min-height: 100vh;
@@ -12,5 +17,9 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+
+  }
 }
