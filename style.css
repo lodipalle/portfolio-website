@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +15,9 @@ section {
   position: relative;
   min-height: 100vh;
   background: url(portfolio-banner.jpg);
-  background-size: contain;
   background-color: #0a0e11;
-  background-position: center;
+  background-size: contain;
+  background-position: 75% 25%;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
@@ -39,4 +40,19 @@ section {
   font-size: 1.5em;
   color: #fff;
   font-weight: 500;
+}
+
+.btn {
+  position: relative;
+  background:#008891;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 5px;
 }
