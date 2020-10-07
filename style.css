@@ -14,12 +14,29 @@ section {
   position: relative;
   min-height: 100vh;
   background: url(portfolio-banner.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-color: #0a0e11;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  h2 {
+}
 
-  }
+.banner h2 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner h2 span {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.banner h3 {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
 }
