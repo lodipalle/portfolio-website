@@ -108,6 +108,10 @@ header ul li a {
   text-decoration: none;
 }
 
+header.sticky ul li a {
+  color: #fff;
+}
+
 .heading {
   width: 100%;
   text-align: center;
