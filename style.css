@@ -67,6 +67,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.5s;
+}
+
+header.sticky {
+  background: #0a0e11;
+  color: #fff;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 header .logo {
@@ -76,6 +84,10 @@ header .logo {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+header.sticky .logo {
+  color: #fff;
 }
 
 header ul {
@@ -100,7 +112,7 @@ header ul li a {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
-  color: #111;
+  color: #0a0e11;
 }
 
 .heading h2 {
@@ -113,16 +125,20 @@ header ul li a {
   justify-content: space-between;
 }
 
+.content {
+  padding-right: 50px;
+}
+
 .contentBx h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 .img {
-  max-width: 100%;
+  width: 260px;
   height: 300px;
 }
 
 .w50 {
-  min-width: 50%;
+  min-width: 80%;
 }
