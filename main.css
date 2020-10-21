@@ -449,7 +449,7 @@ li{
 /*Start contact*/
 
 .contact{
-  background-color: #202d29;
+  background-color: #221e3f;
 }
 
 form{
@@ -494,7 +494,7 @@ input[type="submit"]:hover{
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #202d29;
+  background-color: #16162d;
   padding: 2rem 0;
   position: relative;
 }
