@@ -1,0 +1,17 @@
+$main-color: #766A69;
+$sub-color: #9B908E;
+$gray: #E5E5E5;
+
+* {
+  margin:0; padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  
+}
