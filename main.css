@@ -20,7 +20,7 @@ body{
 }
 
 section{
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 a{
@@ -111,7 +111,7 @@ header{
   height: 100vh;
   position: fixed;
   top: -100vh;
-  background-color: #16162d;
+  background-color: #1a2521;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -449,7 +449,7 @@ li{
 /*Start contact*/
 
 .contact{
-  background-color: #202d29;
+  background-color: #221e3f;
 }
 
 form{
@@ -494,7 +494,7 @@ input[type="submit"]:hover{
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #202d29;
+  background-color: #16162d;
   padding: 2rem 0;
   position: relative;
 }
@@ -509,6 +509,7 @@ input[type="submit"]:hover{
   border-radius: 100%;  
   display: flex;
   animation: pulse 2s infinite;
+  cursor: pointer;
 }
 
 .up i{
@@ -543,4 +544,10 @@ input[type="submit"]:hover{
 
 /*Start media queries*/
 
-/*End media queries*/
+@media screen and (max-width: 768px) {
+body{
+  background: url("images/sitebg1.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+/* End media queries */
