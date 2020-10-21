@@ -546,8 +546,32 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 768px) {
 body{
-  background: url("images/sitebg1.jpg") no-repeat center fixed;
+  background: url("images/sitebg2.jpg") no-repeat center fixed;
   background-size: cover;
+}
+
+.landing-text h1{
+  font-size: 15rem;
+}
+
+.landing-text h6{
+  font-size: 1.7rem;
+}
+
+.nav-list {
+  flex-direction: column;
+}
+
+li{
+  margin: 2rem 0;
+}
+
+.nav-link{
+  font-size: 4.5rem;
+}
+
+.about-heading h1{
+  font-size: 8rem;
 }
 
 /* End media queries */
