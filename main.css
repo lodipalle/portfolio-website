@@ -281,7 +281,7 @@ li{
 }
 
 .fa-instagram:hover{
-  color: #ea4c89;
+  color: #3d7ea6;
 }
 
 /*End about*/
@@ -529,7 +529,7 @@ input[type="submit"]:hover{
 
 @keyframes pulse {
   0%{
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    box-shadow: 0 0 0 0 rgba(197, 104, 104, 0.99);
   }
   70%{
     box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
