@@ -499,6 +499,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
   color: #221e3f;
   background-color: #f5b553;
+  
 }
 
 /*End contact*/
