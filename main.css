@@ -488,8 +488,8 @@ textarea{
 
 input[type="submit"]{
   width: initial;
-  background-color: #c56868;
-  color: #eee;
+  background-color: #f5b553;
+  color: #221e3f;
   padding: 1rem 2rem;
   border-radius: 1rem;
   cursor: pointer;
@@ -497,9 +497,8 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-  color: #221e3f;
-  background-color: #f5b553;
-  
+  color: #eee;
+  background-color: #c56868;  
 }
 
 /*End contact*/
