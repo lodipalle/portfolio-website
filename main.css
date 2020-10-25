@@ -96,6 +96,15 @@ img{
   margin-right: 5rem;
 }
 
+.outside-link{
+  color: #f5b553;
+  font-size: 1.6rem;
+}
+
+.outside-link:hover{
+  color: #c56868;
+}
+
 /*End reusable*/
 
 
@@ -334,6 +343,10 @@ li{
 
 /*Start portfolio*/
 
+.portfolio p{
+  font-size: 1.5rem;
+}
+
 .portfolio-item{
   display: flex;
   align-items: center;
@@ -478,7 +491,7 @@ input[type="submit"]{
   background-color: #c56868;
   color: #eee;
   padding: 1rem 2rem;
-  border-radius: .8rem;
+  border-radius: 1rem;
   cursor: pointer;
   transition: background-color 650ms;
 }
