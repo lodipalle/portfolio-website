@@ -31,6 +31,7 @@ a{
 p{
   font-size: 1.8rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 img{
@@ -235,6 +236,11 @@ li{
 
 
 /*Start about*/
+
+.download-cv{
+  text-align: center;
+  float: left;
+}
 
 .about .container{
   display: flex;
@@ -620,6 +626,11 @@ input[type="submit"]:hover{
   .timeline .date::after{
     left: -5.9rem;
   }
+
+  .download-cv{
+    text-align: center;
+    float: left;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -678,6 +689,10 @@ input[type="submit"]:hover{
     right: 2rem;
   }
 
+  .download-cv{
+    text-align: center;
+    float: left;
+  }
 }
 
 /* End media queries */
