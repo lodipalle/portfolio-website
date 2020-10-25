@@ -353,6 +353,10 @@ li{
   font-size: 1.5rem;
 }
 
+.portfolio-label{
+  text-align: center;
+}
+
 .portfolio-item{
   display: flex;
   align-items: center;
@@ -540,6 +544,7 @@ input[type="submit"]:hover{
 
 .copyright p{
   font-size: 1.3rem;
+  text-align: center;
 }
 
 /*End footer*/
