@@ -491,7 +491,7 @@ input[type="submit"]{
   background-color: #c56868;
   color: #272121;
   padding: 1rem 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   cursor: pointer;
   transition: background-color 650ms;
 }
