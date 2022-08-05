@@ -1,105 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lodi Palle</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
-    <a href="#" class="logo">My Portfolio</a>
-    <div class="toggle">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Works</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+    <div class="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link">Experience</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
       </ul>
+    </nav>
+    <div class="landing-text">
+      <h1>Lodi Palle</h1>
+      <h6>Software Engineer | Landscape Photographer</h6><br>
     </div>
   </header>
-  <section class="banner">
-    <div class="textBx">
-      <h2>Hi, I'm<br><span>Lodi Palle,</span></h2>
-      <h3>Frontend Engineer.</h3>
-      <a href="#" class="btn">About Me</a>
-    </div>
-  </section>
-  <section class="about">
-    <div class="heading">
-      <h2>About Me</h2>
-    </div>
-    <div class="content">
-      <div class="contentBx w50">
-        <h3>Trained in full stack with emphasis on the frontend.</h3>
-        <p>I am adept at using Ruby, SQL, Javascript, HTML, and CSS.
-          But my passion is on the frontend side - designing and building website appeals to my creative, artistic, and innovative side.
-          Trained as a full stack engineer, I also extensively use Figma, GitHub, Trello, and Heroku on various projects.
-          <br><br>As a longtime former healthcare professional, I pride myself in being able to work effectively within a team and function well during high pressure situations.
-          As a software engineer, my vision is to make exciting software that will benefit the world.</p>
-      </div>
-      <div class="w50">
-        <img src="my-pic.jpg" class="img" alt="lodi">
-      </div>
-    </div>
-  </section>
-  <section class="skills">
-    <div class="heading">
-      <h2>Skills</h2>
-      <p>Languages I am proficient with:</p>
-    </div>
-    <div class="content">
-      <div class="skillsBx">
-        <img src="html.png" alt="HTML">
-        <h2>HTML</h2>
-      </div>
-      <div class="skillsBx">
-        <img src="css.png" alt="CSS">
-        <h2>CSS</h2>
-      </div>
-      <div class="skillsBx">
-        <img src="javascript.png" alt="Javascript">
-        <h2>Javascript</h2>
-      </div>
-      <div class="skillsBx">
-        <img src="ruby.png" alt="Ruby/Ruby on Rails">
-        <h2>Ruby/Ruby on Rails</h2>
-      </div>
-      <div class="skillsBx">
-        <img src="sql.png" alt="SQL">
-        <h2>SQL</h2>
-      </div>
-    </div>
-    <section class="Works">
 
-    </section>
-    <section class="skills">
-      <div class="heading">
-        <h2>Services</h2>
-        <p>Expertise I can share with:</p>
+
+  <!-- Start of About Myself -->
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+        <img src="images/profile.jpg" alt="Lodi">
+        <form target="_blank" action="cv-lodipalle.pdf" class="download-cv">
+        <input type="submit" value="Download CV" />
+        </form>
       </div>
-      <div class="content">
-        <div class="servicesBx">
-          <img src="frontend.png" alt="Frontend">
-          <h2>Frontend/Web Design</h2>
+      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Myself</h6>
         </div>
-        <div class="servicesBx">
-          <img src="backend.png" alt="Backend">
-          <h2>Backend Framework</h2>
-        </div>
-        <div class="servicesBx">
-          <img src="photography.png" alt="Photography">
-          <h2>Photography and Image Editing</h2>
+        <p>
+          My vision is to build huge and exciting software that is
+          both essential to the world and commercially successful.
+          As a software engineer, my real passion is on web and UX design.
+          Creating software appeals to my artistic, creativite, and innovative
+          side, hence I am always looking to grow and improve as a developer. <br><br>
+          As a former healthcare professional, I am efficient in working within a team and in high
+          pressure work situations. As a former manager, I am capable of
+          managing a team myself. <br><br>
+          <u>Qualification</u>: Graduate Diploma of Technology (Software Engineering) <br><br>
+          <u>Skills</u>: Ruby on Rails, Ruby, SQL, Javascript, HTML, CSS, Bootstrap,
+          React.js, node.js, Typescript, Android Studio, Flutter, Dart, and Kotlin <br><br>
+          <u>Currently Learning</u>: C#, .NET, MongoDB, and RESTful API <br><br>
+          <u>Other Skills</u>: Landscape photography, Facebook ads, Photoshop, Lightroom,
+          GitHub, Figma, and Heroku
+        </p>
+        <div class="social-media">
+          <div class="nav-list">
+            <li>
+              <a href="https://github.com/lodipalle" target="_blank" class="icon-link">
+                <i class="fab fa-github-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/lodipalle/" target="_blank" class="icon-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="icon-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </div>
         </div>
       </div>
+    </div>
   </section>
-  <script type="text/javascript">
-    window.addEventListener('scroll', function() {
-      var header = document.querySelector('header');
-      header.classList.toggle('sticky', window.scrollY > 0);
-    });
-  </script>
+
+  <!-- End of About Myself -->
+
+
+  <!-- Start of Skills -->
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Skills</h1>
+        <h6>What I Can Offer</h6>
+      </div>
+      <div class="my-skills">
+        <div class="skill" data-aos="fade-in" data-aos-delay="300">
+          <div class="icon-container">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h1>Software Development</h1>
+          <p>
+            Trained on both frontend and backend development, I can build
+            websites and software for you from the ground up.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="600">
+          <div class="icon-container">
+            <i class="fas fa-code"></i>
+          </div>
+          <h1>Web Design</h1>
+          <p>
+            With a keen eye on details and colors, I can design and build eye-
+            pleasing web pages for you.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="900">
+          <div class="icon-container">
+            <i class="fas fa-camera"></i>
+          </div>
+          <h1>Photography</h1>
+          <p>
+            A self taught photographer, I can shoot pictures for you and do all
+            the post-processing of the photos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Skills -->
+
+
+  <!-- Start of Portfolio -->
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Portfolio</h1>
+        <h6>View My Recent Work</h6><br>
+        <p class="portfolio-label">See full portfolio on <a href="https://github.com/lodipalle" target="_blank" class="outside-link">github.com/lodipalle</a></p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+          <img src="images/portitem1.png" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+          <h6>Software Development</h6>
+          <h1>MyHomies App</h1>
+          <p>
+            An all-purpose app for housemates! Built thru Ruby on Rails framework using Ruby,
+            Javascript, HTML, and SCSS, this software allows for household members to manage
+            home expenses, assign chores, & organize events. It also has a built-in chatroom
+            to make communication within house quick, simple, & reliable. 
+          </p>
+          <a href="https://youtu.be/YoNKXKrAaKE?t=855" target="_blank" class="cta">See video demo here</a><br>
+          <a href="videos/myhomies-app-demo.mp4" target="_blank" class="cta">See More</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="600">
+          <h6>Software Development</h6>
+          <h1>My React Quiz</h1>
+          <p>
+            Built using Typescript and React.js, test your knowledge by playing this quiz game!
+            This app runs a series of 10 questions at a time; topics are randomly selected.
+          </p>
+          <a href="https://serene-bartik-955534.netlify.app/" target="_blank" class="cta">Start Quiz</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="800">
+          <img src="images/my-react-quiz.jpg" alt="">
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1000">
+          <img src="images/portitem3.jpg" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1200">
+          <h6>Photography</h6>
+          <h1>Flinders Station Landscape Shot</h1>
+          <p>
+            As a photographer, my real passion is in landscape photography. Though my favourite is
+            doing long exposure shots on exotic environments and dramatic backdrops, I do enjoy
+            doing portrait shoots sometimes as well. I mostly shoot on micro four thirds format using
+            my trusty Panasonic Lumix G9.
+          </p>
+          <a href="images/flinders-station-landscape-shot.jpg" target="_blank" class="cta">See More</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1400">
+          <h6>Web Design</h6>
+          <h1>Real Estate Website</h1>
+          <p>
+            Built using Javascript, HTML, and CSS, this real estate website shows a list of properties
+            and also the agents handling them. It has a contact form to directly send messages to the agents
+            and also allows you to scroll through testimonials of past clients. The website comes with
+            functionalities and features - it even adapts to different screen sizes.        
+          </p>
+          <a href="https://practical-roentgen-fbd6b6.netlify.app/" target="_blank" class="cta">See More</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1600">
+          <img src="images/portitem4.jpg" alt="">
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1800">
+          <img src="images/sami-vs-the-ghosts.png" alt="">
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="2000">
+          <h6>Game Development</h6>
+          <h1>Sami vs The Ghosts</h1>
+          <p>
+            Inspired by Kids Coding Playground, I made this game in memory of my pet labrador Nanah.<br><br>
+            Built using Scratch Game Engine, help Sami save his owner from the scary ghosts of Night City!
+            Sami can spit doggo beams to fight the ghosts! <br><br> Press the <u>up arrow</u> key to            
+            move Sami up, <u>down arrow</u> to move down, and <u>spacebar</u> to spit doggo
+            beams.
+          </p>
+          <a href="https://scratch.mit.edu/projects/454709221/fullscreen/" target="_blank" class="cta">Play Game</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="2200">
+          <h6>Web Design</h6>
+          <h1>Restaurant Menu Page</h1>
+          <p>
+            Built using Javascript, HTML, and CSS, I designed and made this webpage for a restaurant 
+            which shows a full menu set, which you can then sort by breakfast, lunch, shakes, and dinner.
+            Finally, you can choose one meal or choose multiple orders and then complete the purchase.            
+          </p>
+          <a href="https://condescending-easley-621bfe.netlify.app/" target="_blank" class="cta">See More</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="2400">
+          <img src="images/portitem2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Portfolio -->
+
+
+  <!-- Start of Work Experience -->
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Work Experience</h1>
+        <h6>Past & Current Jobs</h6>
+      </div>
+      <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+        <ul>
+          <li class="date" data-date="2020 - 2021">
+            <h1>Aussie Digital Business Systems</h1>
+            <p>
+              Dec 2020 - Mar 2021<br>
+              Frontend Engineer
+            </p>
+          </li>
+          <li class="date" data-date="2020 - 2020">
+            <h1>Green Innovation Systems</h1>
+            <p>
+              Oct 2020 - Dec 2020<br>
+              Frontend Engineer Intern
+            </p>
+          </li>
+          <li class="date" data-date="2016 - 2020">
+            <h1>Australian Unity</h1>
+            <p>
+              Feb 2016 - May 2020<br>
+              After-hours RN Incharge (Grade 5 RN)
+            </p>
+          </li>
+          <li class="date" data-date="2019 - 2020">
+            <h1>Aktrapid Nursing</h1>
+            <p>
+              Sept 2019 - May 2020<br>
+              Casual After-hours RN Incharge (Grade 5 RN)
+            </p>
+          </li>
+          <li class="date" data-date="2019 - 2020">
+            <h1>Belmore Nurses</h1>
+            <p>
+              Sept 2019 - May 2020<br>
+              Casual After-hours RN Incharge (Grade 5 RN)
+            </p>
+          </li>
+          <li class="date" data-date="2020 - 2020">
+            <h1>Healthcare Australia</h1>
+            <p>
+              Feb 2020 - May 2020<br>
+              Casual After-hours RN Incharge (Grade 5 RN)
+            </p>
+            <li class="date" data-date="2019 - 2019">
+              <h1>Royal Freemasons</h1>
+              <p>
+                May 2019 - Sept 2019<br>
+                Care Manager (Grade 5 RN)
+              </p>
+            </li>
+        <li class="date" data-date="2017 - 2018">
+              <h1>ArCare</h1>
+              <p>
+                Aug 2017 - May 2018<br>
+                PM/ND RN Incharge (Grade 5 RN)
+              </p>
+            </li>
+            <li class="date" data-date="2016 - 2017">  
+              <h1>CaSPACare</h1>
+              <p>
+                Feb 2016 - Feb 2017<br>
+                Grade 3 RN
+              </p>
+            </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Work Experience -->
+
+  
+  <!-- Start of Contact Me -->
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Contact</h1>
+        <h6>Let's Work Together</h6><br>
+        <h6>email: lodipalle@gmail.com</h6>
+        <h6>linkedin: <a href="https://www.linkedin.com/in/lodipalle/" target="_blank" class="outside-link">linkedin.com/in/lodipalle</a></h6>
+      </div>
+      <form action="" method="POST" data-aos="fade-up" data-aos-delay="300">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="service">Services:</label>
+        <select name="services" id="service">
+          <option value="">Software Development</option>
+          <option value="">Web Design</option>
+          <option value="">Photography</option>
+        </select>
+        <label for="subject">Subject:</label>
+        <textarea name="subject" id="subject" cols="10" rows="10"
+        placeholder="Still working on the functionality. Pls contact me via email or LinkedIn."></textarea>
+      <input type="submit" value="submit">
+      </form>
+    </div>
+  </section>
+
+  <!-- End of Contact Me -->
+
+
+  <!-- Start of copyright -->
+
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2020 Lodi Palle</p>
+  </footer>
+
+  <!-- End of copyright -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
