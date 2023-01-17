@@ -363,15 +363,6 @@ li {
   margin: 2rem -2px 2rem 0;
 }
 
-.cert-container {
-  width: 10rem;
-  height: 10rem;
-  border: 3px;
-  margin-bottom: 2rem;
-  display: flex;
-  transform: rotate(45deg);
-}
-
 /*End it certifications*/
 
 
