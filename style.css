@@ -366,18 +366,7 @@ li {
 .cert-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid #272121;
-  background-color: #c56868;
-  margin-bottom: 2rem;
-  display: flex;
-  transform: rotate(45deg);
-}
-
-.cert-container script {
-  width: 10rem;
-  height: 10rem;
-  border: 3px solid #272121;
-  background-color: #c56868;
+  border: 3px;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
