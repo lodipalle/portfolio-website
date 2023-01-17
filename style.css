@@ -313,14 +313,6 @@ li {
   text-align: center;  
 }
 
-.my-certs {
-  margin-top: 10rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 2.5rem;
-  text-align: center;  
-}
-
 .skill {
   display: flex;
   flex-direction: column;
@@ -353,6 +345,45 @@ li {
 }
 
 /*End services*/
+
+
+/*Start it certifications*/
+
+.my-certs {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+  text-align: center;  
+}
+
+.certs h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem -2px 2rem 0;
+}
+
+.cert-container {
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid #272121;
+  background-color: #c56868;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+
+.cert-container script {
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid #272121;
+  background-color: #c56868;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+
+/*End it certifications*/
 
 
 /*Start portfolio*/
